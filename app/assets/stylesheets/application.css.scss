@@ -12,8 +12,6 @@
  *= require_tree .
  */
 
-@import "bootstrap";
-
 body {
     padding-top: 51px;
 }
@@ -55,3 +53,5 @@ body {
     background-color: #463265;
     border-color: #463265;
 }
+
+@import "bootstrap";
