@@ -1,0 +1,72 @@
+%p
+  %b Name:
+  = @visitor_invitation.Name
+%p
+  %b Staff id:
+  = @visitor_invitation.Staff_ID
+%p
+  %b Passport no:
+  = @visitor_invitation.Passport_No
+%p
+  %b Post:
+  = @visitor_invitation.Post
+%p
+  %b Years at iiis:
+  = @visitor_invitation.Years_at_IIIS
+%p
+  %b Telephone no:
+  = @visitor_invitation.Telephone_No
+%p
+  %b Invitee:
+  = @visitor_invitation.Invitee
+%p
+  %b Invitee name:
+  = @visitor_invitation.Invitee_Name
+%p
+  %b Invitee affiliation:
+  = @visitor_invitation.Invitee_Affiliation
+%p
+  %b Invitee contact:
+  = @visitor_invitation.Invitee_Contact
+%p
+  %b Visit date start:
+  = @visitor_invitation.Visit_Date_start
+%p
+  %b Visit date end:
+  = @visitor_invitation.Visit_Date_end
+%p
+  %b Give talk:
+  = @visitor_invitation.Give_talk
+%p
+  %b Talk title:
+  = @visitor_invitation.Talk_title
+%p
+  %b Airfare:
+  = @visitor_invitation.Airfare
+%p
+  %b Hotel accommodation:
+  = @visitor_invitation.Hotel_accommodation
+%p
+  %b Others:
+  = @visitor_invitation.Others
+%p
+  %b Last approval:
+  = @visitor_invitation.Last_approval
+%p
+  %b Other airfare:
+  = @visitor_invitation.Other_airfare
+%p
+  %b Other hotel accommodation:
+  = @visitor_invitation.Other_Hotel_accommodation
+%p
+  %b Other honorarium:
+  = @visitor_invitation.Other_Honorarium
+%p
+  %b Other others:
+  = @visitor_invitation.Other_others
+%p
+  %b Date:
+  = @visitor_invitation.Date
+
+= link_to t(:edit), edit_visitor_invitation_path(@visitor_invitation), class: 'btn'
+= link_to t(:back), visitor_invitations_path, class: 'btn'
