@@ -1,7 +1,6 @@
 class LeaveApplicationsController < ApplicationController
   # GET /leave_applications
   # GET /leave_applications.json
-  before_filter :authenticate_user!
   def index
     @leave_applications = LeaveApplication.all
 

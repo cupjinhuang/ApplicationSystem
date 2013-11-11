@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131111131949) do
+ActiveRecord::Schema.define(:version => 20131111175724) do
 
   create_table "conference_grants", :force => true do |t|
     t.string   "name"
@@ -61,7 +61,7 @@ ActiveRecord::Schema.define(:version => 20131111131949) do
     t.string   "contact_and_addr"
     t.datetime "prev_start_date"
     t.datetime "prev_end_date"
-    t.string   "type"
+    t.string   "leave_type"
     t.datetime "start_date"
     t.datetime "end_date"
     t.integer  "working_day_num"
@@ -116,6 +116,10 @@ ActiveRecord::Schema.define(:version => 20131111131949) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email"
+    t.string   "type"
+    t.string   "staff_id"
+    t.string   "position_title"
+    t.string   "phone_num"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
   end

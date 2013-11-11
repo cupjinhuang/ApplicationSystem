@@ -21,11 +21,6 @@ group 'production' do
   gem 'pg'
 end
 
-group :test do
-  gem 'cucumber-rails'
-  gem 'cucumber-rails-training-wheels'
-end
-
 group :development, :test do
   gem 'sqlite3'
   #gem 'ruby-debug19', :require => 'ruby-debug'
@@ -33,6 +28,9 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'cucumber-rails-training-wheels'
+  gem 'simplecov'
 end
 
 gem 'jquery-rails'

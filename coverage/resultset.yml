@@ -1,0 +1,1196 @@
+---
+RSpec:
+  :original_result:
+    /Users/wupeng/intense-waters-6111/app/models/user.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 
+    - 
+    - 
+    - 1
+    - 
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/application_controller.rb:
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/application_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/conference_grants_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/home_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/leave_applications_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/leave_grants_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/visitor_invitations_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/conference_grants_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/conference_grant.rb:
+    - 1
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/home_controller.rb:
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/leave_applications_controller.rb:
+    - 1
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/leave_application.rb:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/leave_grants_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/leave_grant.rb:
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/users_controller.rb: []
+    /Users/wupeng/intense-waters-6111/app/controllers/visitor_invitations_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/visitor_invitation.rb:
+    - 1
+    - 1
+    - 
+  :created_at: 2013-11-12 01:22:22.012370000 +08:00
+Cucumber Features:
+  :original_result:
+    /Users/wupeng/intense-waters-6111/app/models/user.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 
+    - 
+    - 
+    - 1
+    - 
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/application_controller.rb:
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/application_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/conference_grants_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/home_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/leave_applications_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/leave_grants_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/visitor_invitations_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/conference_grants_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 2
+    - 1
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 2
+    - 1
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 1
+    - 2
+    - 1
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/conference_grant.rb:
+    - 1
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/home_controller.rb:
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/leave_applications_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 2
+    - 1
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 2
+    - 1
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 1
+    - 2
+    - 1
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/leave_application.rb:
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/leave_grants_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 2
+    - 1
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 2
+    - 1
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 1
+    - 2
+    - 1
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/leave_grant.rb:
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/users_controller.rb: []
+    /Users/wupeng/intense-waters-6111/app/controllers/visitor_invitations_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 2
+    - 1
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 2
+    - 1
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 1
+    - 2
+    - 1
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/visitor_invitation.rb:
+    - 1
+    - 1
+    - 
+  :created_at: 2013-11-12 03:04:44.849396000 +08:00
+'/Users/wupeng/.rvm/gems/ruby-2.0.0-p195/bin/rspec ':
+  :original_result:
+    /Users/wupeng/intense-waters-6111/app/models/user.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 
+    - 
+    - 
+    - 1
+    - 
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/application_controller.rb:
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/application_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/conference_grants_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/home_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/leave_applications_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/leave_grants_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/helpers/visitor_invitations_helper.rb:
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/conference_grants_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/conference_grant.rb:
+    - 1
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/home_controller.rb:
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/leave_applications_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/leave_application.rb:
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/leave_grants_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/leave_grant.rb:
+    - 1
+    - 1
+    - 
+    /Users/wupeng/intense-waters-6111/app/controllers/users_controller.rb: []
+    /Users/wupeng/intense-waters-6111/app/controllers/visitor_invitations_controller.rb:
+    - 1
+    - 
+    - 
+    - 1
+    - 2
+    - 
+    - 2
+    - 2
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/wupeng/intense-waters-6111/app/models/visitor_invitation.rb:
+    - 1
+    - 1
+    - 
+  :created_at: 2013-11-12 03:11:22.041833000 +08:00

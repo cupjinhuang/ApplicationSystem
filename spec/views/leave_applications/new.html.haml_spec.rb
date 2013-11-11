@@ -8,7 +8,7 @@ describe "leave_applications/new" do
       :position_title => "MyString",
       :phone_num => "MyString",
       :contact_and_addr => "MyString",
-      :type => "",
+      :leave_type => "MyString",
       :working_day_num => 1,
       :obligation => "MyString",
       :status => 1,
@@ -26,7 +26,7 @@ describe "leave_applications/new" do
       assert_select "input#leave_application_position_title[name=?]", "leave_application[position_title]"
       assert_select "input#leave_application_phone_num[name=?]", "leave_application[phone_num]"
       assert_select "input#leave_application_contact_and_addr[name=?]", "leave_application[contact_and_addr]"
-      assert_select "input#leave_application_type[name=?]", "leave_application[type]"
+      assert_select "input#leave_application_leave_type[name=?]", "leave_application[leave_type]"
       assert_select "input#leave_application_working_day_num[name=?]", "leave_application[working_day_num]"
       assert_select "input#leave_application_obligation[name=?]", "leave_application[obligation]"
       assert_select "input#leave_application_status[name=?]", "leave_application[status]"

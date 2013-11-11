@@ -19,9 +19,9 @@ describe "leave_grants/index" do
         :title3 => "Title3",
         :title4 => "Title4",
         :airfare => 1.5,
-        :hotel_fare => 1.5,
+        :hotel_fare => 2.5,
         :hotel_days => 2,
-        :other_fare => 1.5,
+        :other_fare => 3.5,
         :last_approval_date => "Last Approval Date",
         :leave_application_id => 3
       ),
@@ -41,9 +41,9 @@ describe "leave_grants/index" do
         :title3 => "Title3",
         :title4 => "Title4",
         :airfare => 1.5,
-        :hotel_fare => 1.5,
+        :hotel_fare => 2.5,
         :hotel_days => 2,
-        :other_fare => 1.5,
+        :other_fare => 3.5,
         :last_approval_date => "Last Approval Date",
         :leave_application_id => 3
       )
@@ -68,9 +68,9 @@ describe "leave_grants/index" do
     assert_select "tr>td", :text => "Title3".to_s, :count => 2
     assert_select "tr>td", :text => "Title4".to_s, :count => 2
     assert_select "tr>td", :text => 1.5.to_s, :count => 2
-    assert_select "tr>td", :text => 1.5.to_s, :count => 2
+    assert_select "tr>td", :text => 2.5.to_s, :count => 2
     assert_select "tr>td", :text => 2.to_s, :count => 2
-    assert_select "tr>td", :text => 1.5.to_s, :count => 2
+    assert_select "tr>td", :text => 3.5.to_s, :count => 2
     assert_select "tr>td", :text => "Last Approval Date".to_s, :count => 2
     assert_select "tr>td", :text => 3.to_s, :count => 2
   end

@@ -1,5 +1,5 @@
 .page-header
-  %h1 Visitor_invitations
+  %h1 Visitor invitations
 
 %table.table.table-striped.table-bordered
   %tr
@@ -57,7 +57,7 @@
         = link_to t(:show), visitor_invitation, class: 'btn btn-mini'
         = link_to t(:edit), edit_visitor_invitation_path(visitor_invitation),
           class: 'btn btn-mini'
-        = link_to t(:destroy), visitor_invitation, 
+        = link_to t(:destroy), visitor_invitation,
           :confirm => t(:are_you_sure, default: "Are you sure?"), :method => :delete,
           class: 'btn btn-mini btn-danger'
 

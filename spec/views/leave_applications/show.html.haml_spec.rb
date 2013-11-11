@@ -8,7 +8,7 @@ describe "leave_applications/show" do
       :position_title => "Position Title",
       :phone_num => "Phone Num",
       :contact_and_addr => "Contact And Addr",
-      :type => "Type",
+      :leave_type => "Leave Type",
       :working_day_num => 1,
       :obligation => "Obligation",
       :status => 2,
@@ -24,7 +24,7 @@ describe "leave_applications/show" do
     rendered.should match(/Position Title/)
     rendered.should match(/Phone Num/)
     rendered.should match(/Contact And Addr/)
-    rendered.should match(/Type/)
+    rendered.should match(/Leave Type/)
     rendered.should match(/1/)
     rendered.should match(/Obligation/)
     rendered.should match(/2/)

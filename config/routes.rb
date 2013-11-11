@@ -8,11 +8,11 @@ ApplicationSystem::Application.routes.draw do
   resources :conference_grants
 
 
+  resources :visitor_invitations
+
+
   root :to => 'home#index'
 
-  resources :visits
-
-  resources :members
 
   devise_for :users
 

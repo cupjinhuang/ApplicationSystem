@@ -9,7 +9,7 @@ describe "leave_applications/index" do
         :position_title => "Position Title",
         :phone_num => "Phone Num",
         :contact_and_addr => "Contact And Addr",
-        :type => "Type",
+        :leave_type => "Leave Type",
         :working_day_num => 1,
         :obligation => "Obligation",
         :status => 2,
@@ -21,7 +21,7 @@ describe "leave_applications/index" do
         :position_title => "Position Title",
         :phone_num => "Phone Num",
         :contact_and_addr => "Contact And Addr",
-        :type => "Type",
+        :leave_type => "Leave Type",
         :working_day_num => 1,
         :obligation => "Obligation",
         :status => 2,
@@ -38,7 +38,7 @@ describe "leave_applications/index" do
     assert_select "tr>td", :text => "Position Title".to_s, :count => 2
     assert_select "tr>td", :text => "Phone Num".to_s, :count => 2
     assert_select "tr>td", :text => "Contact And Addr".to_s, :count => 2
-    assert_select "tr>td", :text => "Type".to_s, :count => 2
+    assert_select "tr>td", :text => "Leave Type".to_s, :count => 2
     assert_select "tr>td", :text => 1.to_s, :count => 2
     assert_select "tr>td", :text => "Obligation".to_s, :count => 2
     assert_select "tr>td", :text => 2.to_s, :count => 2
