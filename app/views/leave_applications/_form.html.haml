@@ -1,0 +1,21 @@
+= simple_form_for(@leave_application) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :staff_id
+    = f.input :position_title
+    = f.input :phone_num
+    = f.input :contact_and_addr
+    = f.input :prev_start_date
+    = f.input :prev_end_date
+    = f.input :type
+    = f.input :start_date
+    = f.input :end_date
+    = f.input :working_day_num
+    = f.input :obligation
+    = f.input :status
+    = f.input :user_id
+
+  .form-actions
+    = f.button :submit, class: 'btn-primary'

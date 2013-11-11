@@ -1,0 +1,51 @@
+.page-header
+  %h1 Leave_applications
+
+%table.table.table-striped.table-bordered
+  %tr
+    %th= t 'activerecord.attributes.leave_application.name'
+    %th= t 'activerecord.attributes.leave_application.staff_id'
+    %th= t 'activerecord.attributes.leave_application.position_title'
+    %th= t 'activerecord.attributes.leave_application.phone_num'
+    %th= t 'activerecord.attributes.leave_application.contact_and_addr'
+    %th= t 'activerecord.attributes.leave_application.prev_start_date'
+    %th= t 'activerecord.attributes.leave_application.prev_end_date'
+    %th= t 'activerecord.attributes.leave_application.type'
+    %th= t 'activerecord.attributes.leave_application.start_date'
+    %th= t 'activerecord.attributes.leave_application.end_date'
+    %th= t 'activerecord.attributes.leave_application.working_day_num'
+    %th= t 'activerecord.attributes.leave_application.obligation'
+    %th= t 'activerecord.attributes.leave_application.status'
+    %th= t 'activerecord.attributes.leave_application.user_id'
+    %th
+
+  - @leave_applications.each do |leave_application|
+    %tr
+      %td= leave_application.name
+      %td= leave_application.staff_id
+      %td= leave_application.position_title
+      %td= leave_application.phone_num
+      %td= leave_application.contact_and_addr
+      %td= leave_application.prev_start_date
+      %td= leave_application.prev_end_date
+      %td= leave_application.type
+      %td= leave_application.start_date
+      %td= leave_application.end_date
+      %td= leave_application.working_day_num
+      %td= leave_application.obligation
+      %td= leave_application.status
+      %td= leave_application.user_id
+      %td
+        = link_to t(:show), leave_application, class: 'btn btn-mini'
+        = link_to t(:edit), edit_leave_application_path(leave_application),
+          class: 'btn btn-mini'
+        = link_to t(:destroy), leave_application, 
+          :confirm => t(:are_you_sure, default: "Are you sure?"), :method => :delete,
+          class: 'btn btn-mini btn-danger'
+
+%br
+
+= link_to new_leave_application_path, class: 'btn btn-success' do
+  %i.icon-plus.icon-white
+  = t(:new_leave_application)
+

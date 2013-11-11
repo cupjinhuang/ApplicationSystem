@@ -11,7 +11,92 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131027111211) do
+ActiveRecord::Schema.define(:version => 20131111135929) do
+
+  create_table "conference_grants", :force => true do |t|
+    t.string   "name"
+    t.string   "staff_id"
+    t.string   "passport_id"
+    t.string   "post"
+    t.integer  "years_at_iiis"
+    t.string   "phone_num"
+    t.string   "conf_name"
+    t.datetime "conf_date"
+    t.string   "conf_place"
+    t.boolean  "present_paper"
+    t.boolean  "present_poster"
+    t.string   "title1"
+    t.string   "title2"
+    t.string   "title3"
+    t.string   "title4"
+    t.boolean  "coauthored"
+    t.string   "coauthor_type"
+    t.boolean  "coauthor_present"
+    t.float    "airfare"
+    t.float    "reg_fee"
+    t.float    "hotel_fare"
+    t.float    "other_fare"
+    t.string   "other_fare_descr"
+    t.string   "last_approval_date"
+    t.boolean  "host_fund_airfare"
+    t.boolean  "host_fund_hotel"
+    t.boolean  "host_fund_honorarium"
+    t.boolean  "host_fund_others"
+    t.string   "host_fund_others_descr"
+    t.boolean  "other_fund_airfare"
+    t.boolean  "other_fund_hotel"
+    t.boolean  "other_fund_honorarium"
+    t.boolean  "other_fund_others"
+    t.string   "other_fund_others_descr"
+    t.integer  "leave_application_id"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+  end
+
+  create_table "leave_applications", :force => true do |t|
+    t.string   "name"
+    t.string   "staff_id"
+    t.string   "position_title"
+    t.string   "phone_num"
+    t.string   "contact_and_addr"
+    t.datetime "prev_start_date"
+    t.datetime "prev_end_date"
+    t.string   "type"
+    t.datetime "start_date"
+    t.datetime "end_date"
+    t.integer  "working_day_num"
+    t.string   "obligation"
+    t.integer  "status"
+    t.integer  "user_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "leave_grants", :force => true do |t|
+    t.string   "name"
+    t.string   "staff_id"
+    t.string   "passport_id"
+    t.string   "post"
+    t.integer  "years_at_iiis"
+    t.string   "phone_num"
+    t.string   "visit_univerisity_name"
+    t.string   "inviter_name"
+    t.string   "inviter_contact"
+    t.datetime "visit_date"
+    t.boolean  "give_talk"
+    t.string   "title1"
+    t.string   "title2"
+    t.string   "title3"
+    t.string   "title4"
+    t.float    "airfare"
+    t.float    "hotel_fare"
+    t.integer  "hotel_days"
+    t.float    "other_fare"
+    t.string   "last_approval_date"
+    t.integer  "leave_application_id"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

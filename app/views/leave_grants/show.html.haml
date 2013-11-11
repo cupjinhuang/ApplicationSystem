@@ -1,0 +1,66 @@
+%p
+  %b Name:
+  = @leave_grant.name
+%p
+  %b Staff:
+  = @leave_grant.staff_id
+%p
+  %b Passport:
+  = @leave_grant.passport_id
+%p
+  %b Post:
+  = @leave_grant.post
+%p
+  %b Years at iiis:
+  = @leave_grant.years_at_iiis
+%p
+  %b Phone num:
+  = @leave_grant.phone_num
+%p
+  %b Visit univerisity name:
+  = @leave_grant.visit_univerisity_name
+%p
+  %b Inviter name:
+  = @leave_grant.inviter_name
+%p
+  %b Inviter contact:
+  = @leave_grant.inviter_contact
+%p
+  %b Visit date:
+  = @leave_grant.visit_date
+%p
+  %b Give talk:
+  = @leave_grant.give_talk
+%p
+  %b Title1:
+  = @leave_grant.title1
+%p
+  %b Title2:
+  = @leave_grant.title2
+%p
+  %b Title3:
+  = @leave_grant.title3
+%p
+  %b Title4:
+  = @leave_grant.title4
+%p
+  %b Airfare:
+  = @leave_grant.airfare
+%p
+  %b Hotel fare:
+  = @leave_grant.hotel_fare
+%p
+  %b Hotel days:
+  = @leave_grant.hotel_days
+%p
+  %b Other fare:
+  = @leave_grant.other_fare
+%p
+  %b Last approval date:
+  = @leave_grant.last_approval_date
+%p
+  %b Leave application:
+  = @leave_grant.leave_application_id
+
+= link_to t(:edit), edit_leave_grant_path(@leave_grant), class: 'btn'
+= link_to t(:back), leave_grants_path, class: 'btn'

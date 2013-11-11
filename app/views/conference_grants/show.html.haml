@@ -1,0 +1,108 @@
+%p
+  %b Name:
+  = @conference_grant.name
+%p
+  %b Staff:
+  = @conference_grant.staff_id
+%p
+  %b Passport:
+  = @conference_grant.passport_id
+%p
+  %b Post:
+  = @conference_grant.post
+%p
+  %b Years at iiis:
+  = @conference_grant.years_at_iiis
+%p
+  %b Phone num:
+  = @conference_grant.phone_num
+%p
+  %b Conf name:
+  = @conference_grant.conf_name
+%p
+  %b Conf date:
+  = @conference_grant.conf_date
+%p
+  %b Conf place:
+  = @conference_grant.conf_place
+%p
+  %b Present paper:
+  = @conference_grant.present_paper
+%p
+  %b Present poster:
+  = @conference_grant.present_poster
+%p
+  %b Title1:
+  = @conference_grant.title1
+%p
+  %b Title2:
+  = @conference_grant.title2
+%p
+  %b Title3:
+  = @conference_grant.title3
+%p
+  %b Title4:
+  = @conference_grant.title4
+%p
+  %b Coauthored:
+  = @conference_grant.coauthored
+%p
+  %b Coauthor type:
+  = @conference_grant.coauthor_type
+%p
+  %b Coauthor present:
+  = @conference_grant.coauthor_present
+%p
+  %b Airfare:
+  = @conference_grant.airfare
+%p
+  %b Reg fee:
+  = @conference_grant.reg_fee
+%p
+  %b Hotel fare:
+  = @conference_grant.hotel_fare
+%p
+  %b Other fare:
+  = @conference_grant.other_fare
+%p
+  %b Other fare descr:
+  = @conference_grant.other_fare_descr
+%p
+  %b Last approval date:
+  = @conference_grant.last_approval_date
+%p
+  %b Host fund airfare:
+  = @conference_grant.host_fund_airfare
+%p
+  %b Host fund hotel:
+  = @conference_grant.host_fund_hotel
+%p
+  %b Host fund honorarium:
+  = @conference_grant.host_fund_honorarium
+%p
+  %b Host fund others:
+  = @conference_grant.host_fund_others
+%p
+  %b Host fund others descr:
+  = @conference_grant.host_fund_others_descr
+%p
+  %b Other fund airfare:
+  = @conference_grant.other_fund_airfare
+%p
+  %b Other fund hotel:
+  = @conference_grant.other_fund_hotel
+%p
+  %b Other fund honorarium:
+  = @conference_grant.other_fund_honorarium
+%p
+  %b Other fund others:
+  = @conference_grant.other_fund_others
+%p
+  %b Other fund others descr:
+  = @conference_grant.other_fund_others_descr
+%p
+  %b Leave application:
+  = @conference_grant.leave_application_id
+
+= link_to t(:edit), edit_conference_grant_path(@conference_grant), class: 'btn'
+= link_to t(:back), conference_grants_path, class: 'btn'

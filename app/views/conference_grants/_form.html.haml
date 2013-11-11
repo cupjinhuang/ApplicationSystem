@@ -1,0 +1,42 @@
+= simple_form_for(@conference_grant) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :staff_id
+    = f.input :passport_id
+    = f.input :post
+    = f.input :years_at_iiis
+    = f.input :phone_num
+    = f.input :conf_name
+    = f.input :conf_date
+    = f.input :conf_place
+    = f.input :present_paper
+    = f.input :present_poster
+    = f.input :title1
+    = f.input :title2
+    = f.input :title3
+    = f.input :title4
+    = f.input :coauthored
+    = f.input :coauthor_type
+    = f.input :coauthor_present
+    = f.input :airfare
+    = f.input :reg_fee
+    = f.input :hotel_fare
+    = f.input :other_fare
+    = f.input :other_fare_descr
+    = f.input :last_approval_date
+    = f.input :host_fund_airfare
+    = f.input :host_fund_hotel
+    = f.input :host_fund_honorarium
+    = f.input :host_fund_others
+    = f.input :host_fund_others_descr
+    = f.input :other_fund_airfare
+    = f.input :other_fund_hotel
+    = f.input :other_fund_honorarium
+    = f.input :other_fund_others
+    = f.input :other_fund_others_descr
+    = f.input :leave_application_id
+
+  .form-actions
+    = f.button :submit, class: 'btn-primary'

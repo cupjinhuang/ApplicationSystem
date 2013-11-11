@@ -1,0 +1,93 @@
+.page-header
+  %h1 Conference_grants
+
+%table.table.table-striped.table-bordered
+  %tr
+    %th= t 'activerecord.attributes.conference_grant.name'
+    %th= t 'activerecord.attributes.conference_grant.staff_id'
+    %th= t 'activerecord.attributes.conference_grant.passport_id'
+    %th= t 'activerecord.attributes.conference_grant.post'
+    %th= t 'activerecord.attributes.conference_grant.years_at_iiis'
+    %th= t 'activerecord.attributes.conference_grant.phone_num'
+    %th= t 'activerecord.attributes.conference_grant.conf_name'
+    %th= t 'activerecord.attributes.conference_grant.conf_date'
+    %th= t 'activerecord.attributes.conference_grant.conf_place'
+    %th= t 'activerecord.attributes.conference_grant.present_paper'
+    %th= t 'activerecord.attributes.conference_grant.present_poster'
+    %th= t 'activerecord.attributes.conference_grant.title1'
+    %th= t 'activerecord.attributes.conference_grant.title2'
+    %th= t 'activerecord.attributes.conference_grant.title3'
+    %th= t 'activerecord.attributes.conference_grant.title4'
+    %th= t 'activerecord.attributes.conference_grant.coauthored'
+    %th= t 'activerecord.attributes.conference_grant.coauthor_type'
+    %th= t 'activerecord.attributes.conference_grant.coauthor_present'
+    %th= t 'activerecord.attributes.conference_grant.airfare'
+    %th= t 'activerecord.attributes.conference_grant.reg_fee'
+    %th= t 'activerecord.attributes.conference_grant.hotel_fare'
+    %th= t 'activerecord.attributes.conference_grant.other_fare'
+    %th= t 'activerecord.attributes.conference_grant.other_fare_descr'
+    %th= t 'activerecord.attributes.conference_grant.last_approval_date'
+    %th= t 'activerecord.attributes.conference_grant.host_fund_airfare'
+    %th= t 'activerecord.attributes.conference_grant.host_fund_hotel'
+    %th= t 'activerecord.attributes.conference_grant.host_fund_honorarium'
+    %th= t 'activerecord.attributes.conference_grant.host_fund_others'
+    %th= t 'activerecord.attributes.conference_grant.host_fund_others_descr'
+    %th= t 'activerecord.attributes.conference_grant.other_fund_airfare'
+    %th= t 'activerecord.attributes.conference_grant.other_fund_hotel'
+    %th= t 'activerecord.attributes.conference_grant.other_fund_honorarium'
+    %th= t 'activerecord.attributes.conference_grant.other_fund_others'
+    %th= t 'activerecord.attributes.conference_grant.other_fund_others_descr'
+    %th= t 'activerecord.attributes.conference_grant.leave_application_id'
+    %th
+
+  - @conference_grants.each do |conference_grant|
+    %tr
+      %td= conference_grant.name
+      %td= conference_grant.staff_id
+      %td= conference_grant.passport_id
+      %td= conference_grant.post
+      %td= conference_grant.years_at_iiis
+      %td= conference_grant.phone_num
+      %td= conference_grant.conf_name
+      %td= conference_grant.conf_date
+      %td= conference_grant.conf_place
+      %td= conference_grant.present_paper
+      %td= conference_grant.present_poster
+      %td= conference_grant.title1
+      %td= conference_grant.title2
+      %td= conference_grant.title3
+      %td= conference_grant.title4
+      %td= conference_grant.coauthored
+      %td= conference_grant.coauthor_type
+      %td= conference_grant.coauthor_present
+      %td= conference_grant.airfare
+      %td= conference_grant.reg_fee
+      %td= conference_grant.hotel_fare
+      %td= conference_grant.other_fare
+      %td= conference_grant.other_fare_descr
+      %td= conference_grant.last_approval_date
+      %td= conference_grant.host_fund_airfare
+      %td= conference_grant.host_fund_hotel
+      %td= conference_grant.host_fund_honorarium
+      %td= conference_grant.host_fund_others
+      %td= conference_grant.host_fund_others_descr
+      %td= conference_grant.other_fund_airfare
+      %td= conference_grant.other_fund_hotel
+      %td= conference_grant.other_fund_honorarium
+      %td= conference_grant.other_fund_others
+      %td= conference_grant.other_fund_others_descr
+      %td= conference_grant.leave_application_id
+      %td
+        = link_to t(:show), conference_grant, class: 'btn btn-mini'
+        = link_to t(:edit), edit_conference_grant_path(conference_grant),
+          class: 'btn btn-mini'
+        = link_to t(:destroy), conference_grant, 
+          :confirm => t(:are_you_sure, default: "Are you sure?"), :method => :delete,
+          class: 'btn btn-mini btn-danger'
+
+%br
+
+= link_to new_conference_grant_path, class: 'btn btn-success' do
+  %i.icon-plus.icon-white
+  = t(:new_conference_grant)
+

@@ -1,0 +1,65 @@
+.page-header
+  %h1 Leave_grants
+
+%table.table.table-striped.table-bordered
+  %tr
+    %th= t 'activerecord.attributes.leave_grant.name'
+    %th= t 'activerecord.attributes.leave_grant.staff_id'
+    %th= t 'activerecord.attributes.leave_grant.passport_id'
+    %th= t 'activerecord.attributes.leave_grant.post'
+    %th= t 'activerecord.attributes.leave_grant.years_at_iiis'
+    %th= t 'activerecord.attributes.leave_grant.phone_num'
+    %th= t 'activerecord.attributes.leave_grant.visit_univerisity_name'
+    %th= t 'activerecord.attributes.leave_grant.inviter_name'
+    %th= t 'activerecord.attributes.leave_grant.inviter_contact'
+    %th= t 'activerecord.attributes.leave_grant.visit_date'
+    %th= t 'activerecord.attributes.leave_grant.give_talk'
+    %th= t 'activerecord.attributes.leave_grant.title1'
+    %th= t 'activerecord.attributes.leave_grant.title2'
+    %th= t 'activerecord.attributes.leave_grant.title3'
+    %th= t 'activerecord.attributes.leave_grant.title4'
+    %th= t 'activerecord.attributes.leave_grant.airfare'
+    %th= t 'activerecord.attributes.leave_grant.hotel_fare'
+    %th= t 'activerecord.attributes.leave_grant.hotel_days'
+    %th= t 'activerecord.attributes.leave_grant.other_fare'
+    %th= t 'activerecord.attributes.leave_grant.last_approval_date'
+    %th= t 'activerecord.attributes.leave_grant.leave_application_id'
+    %th
+
+  - @leave_grants.each do |leave_grant|
+    %tr
+      %td= leave_grant.name
+      %td= leave_grant.staff_id
+      %td= leave_grant.passport_id
+      %td= leave_grant.post
+      %td= leave_grant.years_at_iiis
+      %td= leave_grant.phone_num
+      %td= leave_grant.visit_univerisity_name
+      %td= leave_grant.inviter_name
+      %td= leave_grant.inviter_contact
+      %td= leave_grant.visit_date
+      %td= leave_grant.give_talk
+      %td= leave_grant.title1
+      %td= leave_grant.title2
+      %td= leave_grant.title3
+      %td= leave_grant.title4
+      %td= leave_grant.airfare
+      %td= leave_grant.hotel_fare
+      %td= leave_grant.hotel_days
+      %td= leave_grant.other_fare
+      %td= leave_grant.last_approval_date
+      %td= leave_grant.leave_application_id
+      %td
+        = link_to t(:show), leave_grant, class: 'btn btn-mini'
+        = link_to t(:edit), edit_leave_grant_path(leave_grant),
+          class: 'btn btn-mini'
+        = link_to t(:destroy), leave_grant, 
+          :confirm => t(:are_you_sure, default: "Are you sure?"), :method => :delete,
+          class: 'btn btn-mini btn-danger'
+
+%br
+
+= link_to new_leave_grant_path, class: 'btn btn-success' do
+  %i.icon-plus.icon-white
+  = t(:new_leave_grant)
+

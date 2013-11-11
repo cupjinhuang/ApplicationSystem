@@ -1,0 +1,45 @@
+%p
+  %b Name:
+  = @leave_application.name
+%p
+  %b Staff:
+  = @leave_application.staff_id
+%p
+  %b Position title:
+  = @leave_application.position_title
+%p
+  %b Phone num:
+  = @leave_application.phone_num
+%p
+  %b Contact and addr:
+  = @leave_application.contact_and_addr
+%p
+  %b Prev start date:
+  = @leave_application.prev_start_date
+%p
+  %b Prev end date:
+  = @leave_application.prev_end_date
+%p
+  %b Type:
+  = @leave_application.type
+%p
+  %b Start date:
+  = @leave_application.start_date
+%p
+  %b End date:
+  = @leave_application.end_date
+%p
+  %b Working day num:
+  = @leave_application.working_day_num
+%p
+  %b Obligation:
+  = @leave_application.obligation
+%p
+  %b Status:
+  = @leave_application.status
+%p
+  %b User:
+  = @leave_application.user_id
+
+= link_to t(:edit), edit_leave_application_path(@leave_application), class: 'btn'
+= link_to t(:back), leave_applications_path, class: 'btn'

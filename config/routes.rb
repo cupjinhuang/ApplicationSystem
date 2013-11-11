@@ -1,5 +1,14 @@
 ApplicationSystem::Application.routes.draw do
-  root :to => 'visits#index'
+  resources :leave_grants
+
+
+  resources :leave_applications
+
+
+  resources :conference_grants
+
+
+  root :to => 'home#index'
 
   resources :visits
 
