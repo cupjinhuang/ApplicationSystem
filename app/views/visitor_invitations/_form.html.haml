@@ -1,0 +1,30 @@
+= simple_form_for(@visitor_invitation) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :Name
+    = f.input :Staff_ID
+    = f.input :Passport_No
+    = f.input :Post
+    = f.input :Years_at_IIIS
+    = f.input :Telephone_No
+    = f.input :Invitee
+    = f.input :Invitee_Name
+    = f.input :Invitee_Affiliation
+    = f.input :Invitee_Contact
+    = f.input :Visit_Date_start
+    = f.input :Visit_Date_end
+    = f.input :Give_talk
+    = f.input :Talk_title
+    = f.input :Airfare
+    = f.input :Hotel_accommodation
+    = f.input :Others
+    = f.input :Last_approval
+    = f.input :Other_airfare
+    = f.input :Other_Hotel_accommodation
+    = f.input :Other_Honorarium
+    = f.input :Other_others
+    = f.input :Date
+
+  .form-actions
+    = f.button :submit, class: 'btn-primary'
